@@ -11,9 +11,9 @@ namespace Edumath {
     //% block="Apakah $n bilangan ganjil atau genap"
     export function isEvenNumber(n: number): void {
     if (n % 2 === 0) {
-        basic.showString("Even");
+        basic.showString("Genap");
     } else {
-        basic.showString("Odd");
+        basic.showString("Ganjil");
      }
     }
 
